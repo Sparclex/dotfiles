@@ -9,11 +9,11 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
+alias g="cd ~/Google\ Drive"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
-alias g="git"
+alias jk="cd ~/jkweb"
+alias code="cd ~/code"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -149,3 +149,20 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# git
+alias gs='git status'
+alias gp='git pull'
+alias gps='git push'
+alias gc='git commit -m'
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias nah="git reset --hard && git clean -df"
+
+# laravel
+alias art='php artisan'
+alias artmig='php artisan migrate'
+alias artref='php artisan migrate:refresh'
+
+# ssh
+alias sshsubs="ssh e48125@e48125-ssh.services.easyname.eu"
+alias sshpa="ssh wehnesil@gpu5.cloudlab.zhaw.ch"
