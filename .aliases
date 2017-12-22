@@ -9,11 +9,11 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias g="cd ~/Google\ Drive"
+alias cloud="cd ~/myCloud"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias jk="cd ~/jkweb"
-alias code="cd ~/code"
+alias jk="cd ~/mycloud/code"
+alias code="cd ~/mycloud/code"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -165,4 +165,4 @@ alias artref='php artisan migrate:refresh'
 
 # ssh
 alias sshsubs="ssh e48125@e48125-ssh.services.easyname.eu"
-alias sshpa="ssh wehnesil@gpu5.cloudlab.zhaw.ch"
+alias sshpa="ssh wehnesil@gpulogin.cloudlab.zhaw.ch"
