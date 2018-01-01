@@ -12,7 +12,7 @@ alias -- -="cd -"
 alias cloud="cd ~/myCloud"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias jk="cd ~/mycloud/code"
+alias jk="cd ~/mycloud/jkweb"
 alias code="cd ~/mycloud/code"
 
 # Detect which `ls` flavor is in use
