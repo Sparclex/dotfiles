@@ -9,11 +9,11 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias cloud="cd ~/myCloud"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias jk="cd ~/mycloud/jkweb"
-alias code="cd ~/mycloud/code"
+alias jk="cd ~/jkweb"
+alias code="cd ~/code"
+alias school="cd ~/school"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
