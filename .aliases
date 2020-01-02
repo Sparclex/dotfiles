@@ -157,11 +157,13 @@ alias gps='git push'
 alias gc='git commit -m'
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias nah="git reset --hard && git clean -df"
+alias wip="git add -A && git commit -m \"wip\""
 
 # laravel
 alias art='php artisan'
-alias artmig='php artisan migrate'
-alias artref='php artisan migrate:refresh'
+alias mig='php artisan migrate'
+alias msf='php artisan migrate:fresh --seed'
+alias mf='php artisan migrate:fresh'
 
 # ssh
 alias sshsubs="ssh e48125@e48125-ssh.services.easyname.eu"
