@@ -9,6 +9,7 @@ fi
 
 # Update Homebrew recipes
 brew update
+brew upgrade
 
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
@@ -18,7 +19,7 @@ brew bundle
 pecl install memcached imagick
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/spark-installer laravel/valet
+/usr/local/bin/composer global require laravel/installer laravel/valet
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
